@@ -1,0 +1,7 @@
+-classpath 'D:\\Idea\\softest2\\build\\classes\\java\\main;D:\\Idea\\softest2\\build\\resources\\main'
+-d 'D:\\Idea\\softest2\\build\\docs\\javadoc'
+-doctitle 'softest2 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'softest2 1.0-SNAPSHOT API'
+'D:\\Idea\\softest2\\src\\main\\java\\PhoneBill.java'

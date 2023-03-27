@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+}
+
+dependencies {
+    // Use JUnit Jupiter for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+apply from: "$rootDir/gradle/config/scripts/style.gradle"
+apply from: "$rootDir/gradle/config/scripts/coverage.gradle"
+coverage.excludePackages = [
+]
+coverage.excludeClasses = [
+]
+style.excludePackages = [
+]
+style.excludeClasses = [
+]
